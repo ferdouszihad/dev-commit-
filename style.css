@@ -140,3 +140,38 @@ header {
 .web-developer img{
   width: 100%;
 }
+
+/* My Inspiration Section */
+
+#inspiration{
+  max-width: 1320px ;
+  margin: 200px auto ;
+}
+
+.inspiration-text{
+  text-align: center;
+  max-width: 900px;
+  margin: auto;
+}
+
+.inspiration-text h2{
+  font-size: 40px;
+}
+
+.inspiration-text p{
+  font-size: 25px;
+  margin: 30px 0 50px 0;
+}
+#inspiration .inspiration-video{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 30px;
+  background: rgba(13, 19, 33, 0.123);
+  border-radius: 15px;
+}
+#inspiration .inspiration-video iframe{
+  border-radius: 15px;
+  margin: 0 auto;
+  border: 5px solid #5b2727;
+}
