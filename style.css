@@ -7,7 +7,7 @@
 
 body {
   font-family: "Azeret Mono", monospace;
-    margin: 0 auto;
+  margin: 0 auto;
   padding: 0;
 }
 
@@ -89,15 +89,15 @@ header {
   gap: 30px;
 }
 
-#web-dev-container > section > h1{
+#web-dev-container > section > h1 {
   font-size: 40px;
 }
 
-#web-dev-container > section > p{
+#web-dev-container > section > p {
   font-size: 20px;
 }
 
-.web-developer{
+.web-developer {
   display: flex;
   justify-content: start;
   align-items: center;
@@ -107,62 +107,61 @@ header {
   border-radius: 8px;
 }
 
-.web-developer .dev-text{
+.web-developer .dev-text {
   max-width: 550px;
-  
 }
 
-.sect-2, .sect-4{
+.sect-2,
+.sect-4 {
   justify-content: space-between;
-  background-image: linear-gradient(to right, #ffffff , rgba(13, 19, 33, 0.02));
+  background-image: linear-gradient(to right, #ffffff, rgba(13, 19, 33, 0.02));
   padding-left: 50px;
-  
 }
 
-.sect-3{
+.sect-3 {
   margin: 60px 0;
-  background-image: linear-gradient(to left, #ffffff , rgba(13, 19, 33, 0.02));
+  background-image: linear-gradient(to left, #ffffff, rgba(13, 19, 33, 0.02));
 }
 
-.web-developer .dev-text h2{
+.web-developer .dev-text h2 {
   font-size: 35px;
 }
 
-.web-developer .dev-text p{
+.web-developer .dev-text p {
   font-size: 22px;
   margin: 20px 0;
 }
 
-.web-developer .dev-text button{
+.web-developer .dev-text button {
   padding: 10px 24px;
 }
 
-.web-developer img{
+.web-developer img {
   width: 100%;
 }
 
 /* My Inspiration Section */
 
-#inspiration{
-  max-width: 1320px ;
-  margin: 200px auto ;
+#inspiration {
+  max-width: 1320px;
+  margin: 200px auto;
 }
 
-.inspiration-text{
+.inspiration-text {
   text-align: center;
   max-width: 900px;
   margin: auto;
 }
 
-.inspiration-text h2{
+.inspiration-text h2 {
   font-size: 40px;
 }
 
-.inspiration-text p{
+.inspiration-text p {
   font-size: 25px;
   margin: 30px 0 50px 0;
 }
-#inspiration .inspiration-video{
+#inspiration .inspiration-video {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -170,8 +169,100 @@ header {
   background: rgba(13, 19, 33, 0.123);
   border-radius: 15px;
 }
-#inspiration .inspiration-video iframe{
+#inspiration .inspiration-video iframe {
   border-radius: 15px;
   margin: 0 auto;
   border: 5px solid #5b2727;
+}
+
+/* Current Target Section */
+
+#current-target {
+  max-width: 1320px;
+  margin: auto;
+}
+
+.target-text {
+  text-align: center;
+}
+
+#current-target .target-text h2 {
+  font-size: 40px;
+}
+
+#current-target .target-text p {
+  max-width: 850px;
+  margin: 30px auto;
+  font-size: 25px;
+}
+
+.targets {
+  margin-top: 80px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 20px;
+}
+
+.target-details {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  gap: 20px;
+  padding: 40px;
+  border-radius: 20px;
+  width: 33%;
+  height: 400px;
+}
+
+.target-details figure {
+  height: 80px;
+}
+.target-details figure img {
+  height: 100%;
+}
+
+.target-details h3 {
+  font-size: 35px;
+}
+.target-details p {
+  font-size: 25px;
+  text-align: justify;
+}
+.html {
+  background: rgba(255, 76, 30, 0.05);
+}
+
+.css {
+  background: rgba(0, 76, 232, 0.05);
+}
+
+.js {
+  background: rgba(255, 223, 0, 0.05);
+}
+
+.target-details a {
+  color: #000;
+  text-decoration-color: #000;
+  font-size: 25px;
+  font-weight: bolder;
+}
+
+/* Footer section */
+
+footer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  max-width: 1300px;
+  margin: 200px auto 0;
+  border-radius: 20px;
+  padding: 50px;
+  height: 50px;
+  background: rgba(13, 19, 33, 0.03);
+}
+
+.footer-icons {
+  display: flex;
+  gap: 20px;
 }
