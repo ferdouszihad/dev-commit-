@@ -248,6 +248,51 @@ header {
   font-weight: bolder;
 }
 
+/* Support Section */
+
+#contact {
+  max-width: 1320px;
+  height: 400px;
+  background: linear-gradient(0deg, rgba(0, 0, 0, .5) 1%, rgba(0, 0, 0, 0.2) 100%),
+    url("./assets/handshake.jpg") no-repeat center;
+  background-size: cover;
+  border-radius: 20px;
+  color: #fff;
+  margin: 100px auto 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+#contact > section{
+  text-align: center;
+  max-width: 850px;
+  margin: auto;
+}
+
+#contact h3{
+  font-size: 35px;
+}
+
+#contact p{
+  font-size: 18px;
+  opacity: 0.6;
+  margin: 30px 0;
+}
+
+#contact .input{
+  width: 450px;
+  border-radius: 8px;
+  padding: 13px 20px;
+  font-size: 20px;
+}
+
+#contact .btn{
+  padding: 13px 20px;
+  font-size: 20px;
+}
+
 /* Footer section */
 
 footer {
