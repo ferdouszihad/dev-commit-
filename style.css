@@ -47,7 +47,7 @@ header {
   flex-direction: column;
   text-align: center;
   gap: 20px;
-  background: url("/assets/Hero-bg.png") no-repeat center;
+  background: url("./assets/Hero-bg.png") no-repeat center;
   background-size: cover;
   height: 800px;
 }
@@ -258,7 +258,7 @@ header {
       rgba(0, 0, 0, 0.5) 1%,
       rgba(0, 0, 0, 0.2) 100%
     ),
-    url("./assets/handshake.jpg") no-repeat center;
+    url("./assets/Handshake.jpg") no-repeat center;
   background-size: cover;
   border-radius: 20px;
   color: #fff;
